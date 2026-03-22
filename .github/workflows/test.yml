@@ -1,0 +1,44 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate theme JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('themes/kana-dark.json', 'utf8')); console.log('Theme JSON is valid');"
+
+      - name: Validate color values
+        run: |
+          node -e "
+            const theme = JSON.parse(require('fs').readFileSync('themes/kana-dark.json', 'utf8'));
+            const colorRegex = /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/;
+            const errors = [];
+            for (const [key, value] of Object.entries(theme.colors || {})) {
+              if (typeof value === 'string' && !colorRegex.test(value)) {
+                errors.push(\`Invalid color for '\${key}': \${value}\`);
+              }
+            }
+            if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
+            console.log('All color values are valid');
+          "
+
+      - name: Verify package builds
+        run: node_modules/.bin/vsce package

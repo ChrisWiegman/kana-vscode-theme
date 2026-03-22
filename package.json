@@ -1,0 +1,50 @@
+{
+    "name": "kana-vscode-theme",
+    "displayName": "Kana Dark",
+    "description": "A warm, earthy dark theme inspired by chriswiegman.com",
+    "version": "0.1.1",
+    "publisher": "ChrisWiegman",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChrisWiegman/kana-vscode-theme.git"
+    },
+    "homepage": "https://github.com/ChrisWiegman/kana-vscode-theme#readme",
+    "bugs": {
+        "url": "https://github.com/ChrisWiegman/kana-vscode-theme/issues"
+    },
+    "engines": {
+        "vscode": "^1.110.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kana Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kana-dark.json"
+            }
+        ],
+        "configurationDefaults": {
+            "[Kana Dark]": {
+                "editor.fontVariations": true,
+                "editor.tokenColorCustomizations": {
+                    "textMateRules": [
+                        {
+                            "scope": "comment",
+                            "settings": {
+                                "fontStyle": "italic"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.7.1",
+        "changie": "^1.24.0"
+    }
+}

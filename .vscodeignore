@@ -1,0 +1,8 @@
+.vscode/**
+.vscode-test/**
+node_modules/**
+.gitignore
+.vscodeignore
+Makefile
+package-lock.json
+icon.svg
