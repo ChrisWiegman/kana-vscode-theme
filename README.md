@@ -2,7 +2,7 @@
 
 A warm, earthy dark theme for Visual Studio Code inspired by [chriswiegman.com](https://chriswiegman.com).
 
-![Kana Dark overview](./assets/marketplace/kana-dark-overview.svg)
+![Kana Dark overview](./assets/marketplace/kana-dark-overview.png)
 
 ## Features
 
@@ -18,15 +18,15 @@ Kana Dark is designed to keep the chrome subdued while giving code enough contra
 
 ### Full Editor Overview
 
-![Kana Dark full editor overview](./assets/marketplace/kana-dark-overview.svg)
+![Kana Dark full editor overview](./assets/marketplace/kana-dark-overview.png)
 
 ### JavaScript and TypeScript Contrast
 
-![Kana Dark JavaScript and TypeScript screenshot](./assets/marketplace/kana-dark-javascript.svg)
+![Kana Dark JavaScript and TypeScript screenshot](./assets/marketplace/kana-dark-javascript.png)
 
 ### Markdown and Terminal Surfaces
 
-![Kana Dark Markdown and terminal screenshot](./assets/marketplace/kana-dark-markdown-terminal.svg)
+![Kana Dark Markdown and terminal screenshot](./assets/marketplace/kana-dark-markdown-terminal.png)
 
 ## Installation
 
