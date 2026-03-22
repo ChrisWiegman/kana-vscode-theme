@@ -5,6 +5,10 @@
     "version": "0.1.1",
     "publisher": "ChrisWiegman",
     "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#1a1816",
+        "theme": "dark"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ChrisWiegman/kana-vscode-theme.git"
@@ -18,6 +22,14 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "warm",
+        "brown",
+        "earthy",
+        "vscode theme"
     ],
     "contributes": {
         "themes": [

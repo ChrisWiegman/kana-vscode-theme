@@ -1,0 +1,110 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#120F0D"/>
+  <rect x="70" y="80" width="1460" height="740" rx="28" fill="#1A1816" stroke="#252220" stroke-width="2"/>
+  <rect x="70" y="80" width="1460" height="58" rx="28" fill="#161412"/>
+  <text x="118" y="117" fill="#D4CBBF" font-family="system-ui, sans-serif" font-size="24" font-weight="700">JavaScript and TypeScript</text>
+  <rect x="70" y="138" width="260" height="682" fill="#161412"/>
+  <rect x="330" y="138" width="1200" height="682" fill="#1A1816"/>
+  <text x="110" y="184" fill="#A88060" font-family="system-ui, sans-serif" font-size="18" font-weight="700" letter-spacing="2">FILES</text>
+  <rect x="96" y="216" width="208" height="44" rx="10" fill="#252220"/>
+  <text x="116" y="244" fill="#D4A87A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">theme.ts</text>
+  <text x="116" y="296" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">palette.ts</text>
+  <text x="116" y="348" fill="#7AB870" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">package.json</text>
+  <text x="116" y="400" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">README.md</text>
+
+  <text x="372" y="202" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">1</text>
+  <text x="372" y="252" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">2</text>
+  <text x="372" y="302" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">3</text>
+  <text x="372" y="352" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">4</text>
+  <text x="372" y="402" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">5</text>
+  <text x="372" y="452" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">6</text>
+  <text x="372" y="502" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">7</text>
+  <text x="372" y="552" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">8</text>
+  <text x="372" y="602" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">9</text>
+  <text x="372" y="652" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">10</text>
+
+  <rect x="410" y="230" width="1076" height="44" rx="10" fill="#1F1D1B"/>
+
+  <text x="416" y="202" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan fill="#C8804A" font-style="italic">export</tspan>
+    <tspan> </tspan>
+    <tspan fill="#C8804A" font-style="italic">function</tspan>
+    <tspan> </tspan>
+    <tspan fill="#E8C87A" font-weight="700">buildTheme</tspan>
+    <tspan>(</tspan>
+    <tspan fill="#C4B8AE" font-style="italic">name</tspan>
+    <tspan>: </tspan>
+    <tspan fill="#80A898" font-style="italic">ThemeName</tspan>
+    <tspan>) </tspan>
+    <tspan>{</tspan>
+  </text>
+
+  <text x="416" y="252" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>  </tspan>
+    <tspan fill="#C8804A" font-style="italic">const</tspan>
+    <tspan> </tspan>
+    <tspan fill="#C4B8AE">palette</tspan>
+    <tspan> = </tspan>
+    <tspan fill="#E8C87A">getPalette</tspan>
+    <tspan>(</tspan>
+    <tspan fill="#98B060">"kana-dark"</tspan>
+    <tspan>);</tspan>
+  </text>
+
+  <text x="416" y="302" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>  </tspan>
+    <tspan fill="#C8804A" font-style="italic">return</tspan>
+    <tspan> {</tspan>
+  </text>
+
+  <text x="452" y="352" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>    </tspan>
+    <tspan fill="#D4A87A">name</tspan>
+    <tspan>,</tspan>
+  </text>
+
+  <text x="452" y="402" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>    </tspan>
+    <tspan fill="#D4A87A">background</tspan>
+    <tspan>: </tspan>
+    <tspan fill="#C4B8AE">palette</tspan>
+    <tspan>.</tspan>
+    <tspan fill="#B8A878">background</tspan>
+    <tspan>,</tspan>
+  </text>
+
+  <text x="452" y="452" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>    </tspan>
+    <tspan fill="#D4A87A">accent</tspan>
+    <tspan>: </tspan>
+    <tspan fill="#C4B8AE">palette</tspan>
+    <tspan>.</tspan>
+    <tspan fill="#B8A878">accent</tspan>
+    <tspan>,</tspan>
+  </text>
+
+  <text x="452" y="502" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>    </tspan>
+    <tspan fill="#D4A87A">active</tspan>
+    <tspan>: </tspan>
+    <tspan fill="#7AB870" font-style="italic">true</tspan>
+    <tspan>,</tspan>
+  </text>
+
+  <text x="452" y="552" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">
+    <tspan>  };</tspan>
+  </text>
+
+  <text x="416" y="602" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30">}</text>
+
+  <rect x="1088" y="564" width="338" height="214" rx="20" fill="#1F1D1B" stroke="#252220" stroke-width="2"/>
+  <text x="1118" y="606" fill="#A88060" font-family="system-ui, sans-serif" font-size="18" font-weight="700">TOKEN COLORS</text>
+  <text x="1118" y="642" fill="#C8804A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">keywords</text>
+  <text x="1270" y="642" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">warm clay</text>
+  <text x="1118" y="676" fill="#98B060" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">strings</text>
+  <text x="1270" y="676" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">sage</text>
+  <text x="1118" y="710" fill="#80A898" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">types</text>
+  <text x="1270" y="710" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">mist blue</text>
+  <text x="1118" y="744" fill="#B06858" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">constants</text>
+  <text x="1270" y="744" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">muted rust</text>
+</svg>

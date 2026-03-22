@@ -1,0 +1,45 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#120F0D"/>
+  <rect x="70" y="70" width="1460" height="760" rx="28" fill="#1A1816" stroke="#252220" stroke-width="2"/>
+  <rect x="70" y="70" width="1460" height="58" rx="28" fill="#161412"/>
+  <text x="118" y="108" fill="#D4CBBF" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Markdown and Terminal</text>
+
+  <rect x="102" y="166" width="820" height="620" rx="20" fill="#1A1816"/>
+  <rect x="954" y="166" width="544" height="620" rx="20" fill="#1A1816"/>
+  <rect x="922" y="166" width="1" height="620" fill="#252220"/>
+
+  <text x="136" y="214" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">1</text>
+  <text x="136" y="258" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">2</text>
+  <text x="136" y="302" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">3</text>
+  <text x="136" y="346" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">4</text>
+  <text x="136" y="390" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">5</text>
+  <text x="136" y="434" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">6</text>
+  <text x="136" y="478" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">7</text>
+  <text x="136" y="522" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">8</text>
+  <text x="136" y="566" fill="#4A4540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">9</text>
+
+  <text x="176" y="214" fill="#C8804A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700"># Kana Dark</text>
+  <text x="176" y="258" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24">A warm, earthy theme built for long editing sessions.</text>
+  <text x="176" y="324" fill="#D4A87A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">## Why it works</text>
+  <text x="176" y="370" fill="#7A736C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-style="italic">&gt; Soft contrast keeps the UI quiet around the code.</text>
+  <text x="176" y="436" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">- Warm keyword accents</text>
+  <text x="176" y="480" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="27">- Sage strings and grounded neutrals</text>
+  <text x="176" y="524" fill="#CEC6BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">- Calm sidebars, tabs, and status bar</text>
+  <rect x="176" y="580" width="460" height="54" rx="12" fill="#1F1D1B"/>
+  <text x="206" y="615" fill="#98B060" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">`pnpm add kana-dark`</text>
+
+  <rect x="988" y="206" width="476" height="390" rx="18" fill="#161412" stroke="#252220" stroke-width="2"/>
+  <text x="1018" y="246" fill="#7A736C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">terminal</text>
+  <text x="1018" y="302" fill="#D4CBBF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">$ npm run build</text>
+  <text x="1018" y="350" fill="#7AB870" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">✓ packaged extension</text>
+  <text x="1018" y="398" fill="#D4A87A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">ℹ  validating manifest</text>
+  <text x="1018" y="446" fill="#80A898" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">→ ready for marketplace</text>
+  <text x="1018" y="494" fill="#C8604A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28">! no noisy chrome</text>
+
+  <rect x="988" y="628" width="476" height="122" rx="18" fill="#1F1D1B" stroke="#252220" stroke-width="2"/>
+  <text x="1018" y="668" fill="#A88060" font-family="system-ui, sans-serif" font-size="18" font-weight="700">SHOWCASE</text>
+  <text x="1018" y="698" fill="#CEC6BC" font-family="system-ui, sans-serif" font-size="25">
+    <tspan x="1018" dy="0">Headings, quotes, code fences,</tspan>
+    <tspan x="1018" dy="32">and ANSI colors stay readable.</tspan>
+  </text>
+</svg>
