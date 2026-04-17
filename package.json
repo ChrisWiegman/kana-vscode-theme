@@ -56,7 +56,10 @@
         }
     },
     "devDependencies": {
-        "@vscode/vsce": "^3.7.1",
+        "@vscode/vsce": "^3.9.0",
         "changie": "^1.24.0"
-    }
+    },
+    "overrides": {
+    "glob": "^13.0.6"
+  }
 }
