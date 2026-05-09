@@ -1,0 +1,3 @@
+kind: Security Fixes
+body: Update package dependencies including for a high-severity issue in fast-uri.
+time: 2026-05-09T08:36:43.159438-05:00
