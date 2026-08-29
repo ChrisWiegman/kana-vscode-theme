@@ -18,7 +18,7 @@
         "url": "https://github.com/ChrisWiegman/kana-vscode-theme/issues"
     },
     "engines": {
-        "vscode": "^1.110.0"
+        "vscode": "^1.134.0"
     },
     "categories": [
         "Themes"
@@ -57,7 +57,7 @@
     },
     "devDependencies": {
         "@vscode/vsce": "^3.9.2",
-        "changie": "^1.25.1"
+        "changie": "^1.26.0"
     },
     "overrides": {
         "glob": "^13.0.6",
