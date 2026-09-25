@@ -1,0 +1,3 @@
+kind: Bug Fixes
+body: Hide the new surface borders VS Code 1.139 draws around the editor, sidebar, activity bar and panels.
+time: 2026-09-25T15:48:16.000000-05:00
