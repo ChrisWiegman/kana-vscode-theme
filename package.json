@@ -2,7 +2,7 @@
     "name": "kana-vscode-theme",
     "displayName": "Kana Dark",
     "description": "A warm, earthy dark theme inspired by chriswiegman.com",
-    "version": "0.1.7",
+    "version": "0.2.0",
     "publisher": "ChrisWiegman",
     "icon": "icon.png",
     "galleryBanner": {
