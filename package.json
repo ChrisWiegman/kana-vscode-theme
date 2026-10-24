@@ -18,7 +18,7 @@
         "url": "https://github.com/ChrisWiegman/kana-vscode-theme/issues"
     },
     "engines": {
-        "vscode": "^1.138.0"
+        "vscode": "^1.140.0"
     },
     "categories": [
         "Themes"
@@ -61,6 +61,7 @@
     },
     "overrides": {
         "glob": "^13.0.6",
-        "encoding-sniffer": "^1.0.2"
+        "encoding-sniffer": "^1.0.2",
+        "@azure/msal-node": "^7.1.1"
     }
 }
